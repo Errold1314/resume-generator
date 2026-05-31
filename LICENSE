@@ -1,21 +1,150 @@
-MIT License
+# Resume Studio — Listing copy & launch notes
 
-Copyright (c) 2026 SUN XIAOCHI
+Copy-paste starting points for Gumroad and Etsy. Edit names, prices, and the
+contact email before publishing. Anything in [brackets] is a placeholder.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+===============================================================================
+RECOMMENDED SETUP (the short version)
+===============================================================================
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Sell the SAME product two ways, on two channels:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- GUMROAD (primary) — best fit for selling access + source. Native license
+  keys, low fees, easy hosted checkout, supports the "online version" idea
+  cleanly. Offer two tiers:
+    • Personal — the offline edition (the dist/ folder, zipped). $9–15.
+    • Developer / Extended — full source + deploy rights. $29–49.
+
+- ETSY (traffic) — list the offline edition as an instant digital download.
+  Etsy's 91M+ buyers search here; treat it as a discovery channel. One simple
+  product, ~$8–12. Use it to send buyers toward your Gumroad for the dev tier.
+
+Why not sell "online access" on Etsy: Etsy delivers files, not logins. Since
+the app is now a static folder, you don't need login-based access at all — you
+just sell the folder. That sidesteps Etsy's whole limitation. Clean and
+compliant.
+
+What to upload:
+- ZIP of the dist/ folder  → the "offline edition" (for everyday buyers)
+- ZIP of the full project (source + README + LICENSE)  → the "developer" tier
+
+===============================================================================
+GUMROAD — PRODUCT PAGE
+===============================================================================
+
+NAME:
+Resume Studio — Editorial ATS Resume Builder (12 Templates, PDF + Word)
+
+SUMMARY (the one-liner under the title):
+A clean, offline resume builder with 12 editorial templates. Fill, preview,
+export to PDF & Word. No login, no subscription, no AI gimmicks.
+
+DESCRIPTION:
+Most resume templates are either a static Word file you fight with, or a
+website that locks your export behind a subscription. Resume Studio is neither.
+
+It's a small, fast tool you run in your browser. Type your details once, then
+flip through 12 professionally typeset templates — Corporate, Tech, Creative,
+Healthcare/Education, Academic, and Trades/Service, two styles each. Watch the
+live preview update on a real letter-size page. When it looks right, export a
+clean PDF or an editable Word document.
+
+Every template is single-column with standard section names and no text hidden
+inside images — so applicant tracking systems (ATS) read it correctly.
+
+What you get:
+• 12 editorial templates across 6 professions
+• Live preview on an 8.5×11 page
+• One-click PDF export (selectable text, ATS-safe)
+• One-click Word (.docx) export you can keep editing
+• Clay/Sage color options on the Creative templates
+• Runs fully in your browser — nothing is uploaded, nothing is tracked
+
+No account. No monthly fee. No watermark.
+
+TIERS:
+• Personal ($12) — the ready-to-run app. Unzip, open index.html, done.
+• Developer ($39) — full source code (React + Vite), deploy rights, README,
+  and a commercial license to host it on your own site.
+
+Note: clicking export loads the PDF/Word engine from the web the first time,
+so the export buttons need internet on first use.
+
+===============================================================================
+ETSY — LISTING
+===============================================================================
+
+TITLE (front-load keywords, ~140 chars):
+ATS Resume Builder | 12 Editorial Resume Templates | Instant Download | PDF + Word Export | Modern Minimalist CV Maker | No Subscription
+
+DESCRIPTION:
+Build a polished, ATS-friendly resume in minutes — no design skills, no
+monthly fee, no login.
+
+This is a downloadable resume builder you open right in your web browser. Enter
+your details once and switch instantly between 12 typeset templates across 6
+career fields. Export a clean PDF or an editable Word file when you're happy.
+
+★ WHAT'S INCLUDED
+• A ready-to-use resume builder (open in any browser)
+• 12 templates: Corporate, Tech, Creative, Healthcare/Education, Academic,
+  Trades & Service — 2 styles each
+• PDF export with real, selectable text (ATS-safe)
+• Word (.docx) export you can keep editing
+• Live preview as you type
+
+★ WHY IT'S DIFFERENT
+• Single-column, standard sections, no text-in-images → reads correctly in
+  applicant tracking systems
+• No subscription, no watermark, no account
+• Nothing you type is uploaded or stored
+
+★ HOW IT WORKS
+1. Download & unzip
+2. Open index.html in your browser
+3. Fill in your info, pick a template
+4. Download your PDF or Word file
+
+★ NOTE
+The export buttons need an internet connection the first time you use them.
+This is a digital product — no physical item is shipped. Due to the nature of
+instant downloads, all sales are final.
+
+Want the source code / the right to host it on your own website? Message me for
+the developer edition.
+
+TAGS (fill all 13):
+resume template, ats resume, cv template, resume builder, modern resume,
+minimalist resume, resume pdf, word resume, professional cv, editable resume,
+job application, resume maker, instant download
+
+PRICE: $9.50  (test $8–12; bundle more if you raise it)
+
+CATEGORY: choose a digital/templates category
+DIGITAL FILE: upload the zipped offline edition; set as instant download
+MOCKUP IMAGES: screenshot 3–4 of the rendered templates (the actual resume
+output, NOT the code). Show them as resumes on a page. Add one image listing
+the 6 categories. A plain code screenshot will not sell.
+
+===============================================================================
+PRICING LOGIC
+===============================================================================
+You have zero per-sale cost now (no API). So price on perceived value:
+- Look at the top 5 listings for "ats resume template". Match or slightly
+  undercut for volume, or price higher with more included (extra templates,
+  a cover-letter template, a quick-start PDF guide) for premium positioning.
+- The developer tier is where the margin is — technical buyers expect to pay
+  more for source + deploy rights, and it costs you nothing to deliver.
+
+===============================================================================
+BEFORE YOU PUBLISH — CHECKLIST
+===============================================================================
+[ ] Edit LICENSE.txt: add your name/shop and contact email.
+[ ] Decide the two tiers and prices.
+[ ] Zip the offline edition (the dist/ folder) for everyday buyers.
+[ ] Zip the full project (source) for the developer tier.
+[ ] Make 3–4 mockup images from the actual rendered resumes.
+[ ] In every description, keep the "internet needed on first export" note —
+    it prevents confused buyers and bad reviews.
+[ ] Don't claim "AI" anywhere — the AI parsing was removed. Describing it as
+    AI would be inaccurate and invite refunds.
